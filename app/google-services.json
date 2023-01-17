@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1065450507163",
+    "project_id": "finalexamproject-f6644",
+    "storage_bucket": "finalexamproject-f6644.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065450507163:android:1279e3402ebd371c7c2f3e",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065450507163-84n457aitpg82fo1m41ta0imloqsa7hg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaf4LqYolCRVb_ohxEDRVOBwDuMOpXjI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065450507163-84n457aitpg82fo1m41ta0imloqsa7hg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

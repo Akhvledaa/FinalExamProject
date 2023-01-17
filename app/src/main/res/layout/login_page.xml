@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".Login_page">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="190dp"
+        android:background="@drawable/sign_in_button_bg"
+        android:gravity="center"
+        android:text="@string/log_in"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/gotosignup_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="60dp"
+        android:background="#00FFFFFF"
+        android:text="@string/don_t_have_an_account_sign_up"
+        android:textColor="@color/white"
+
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_button" />
+
+    <EditText
+        android:id="@+id/ETpassword_login"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="50dp"
+        android:drawableStart="@drawable/lock"
+        android:drawableTint="#fff"
+        android:drawablePadding="10dp"
+        android:backgroundTint="#fff"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:lines="1"
+        android:hint="@string/enter_a_password3"
+        android:textColorHint="#A1FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/login_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/ETemail_login"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="30dp"
+        android:drawableStart="@drawable/email"
+        android:drawableTint="#fff"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:singleLine="true"
+        android:lines="1"
+        android:backgroundTint="#95FFFFFF"
+        android:hint="@string/enter_an_email"
+        android:textColorHint="#A1FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/ETpassword_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in_textview"
+        android:textSize="55sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_marginStart="62dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toTopOf="@id/ETemail_login"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="log_in">Log in</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="enter_a_password">Enter a password</string>
+    <string name="log_in_textview">Log in</string>
+    <string name="enter_an_email">Enter an email</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_have_an_account_log_in">Already have an account? Log in</string>
+    <string name="create_account">Create Account</string>
+    <string name="enter_a_name">Enter a name</string>
+    <string name="enter_email_or_phone">Enter email or phone</string>
+    <string name="enter_a_password1">Enter a password</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="enter_an_email1">Enter an email</string>
+    <string name="enter_a_password2">Enter a password</string>
+    <string name="enter_a_password3">Enter a password</string>
+</resources>

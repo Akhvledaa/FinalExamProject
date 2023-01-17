@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/MIhome"
+        android:title="Home"
+        android:icon="@drawable/home_icon"/>
+
+    <item
+        android:id="@+id/MIcontacts"
+        android:title="Contacts"
+        android:icon="@drawable/contacts_icon"/>
+
+    <item
+        android:id="@+id/MIProfile"
+        android:title="Profile"
+        android:icon="@drawable/profile_icon"/>
+
+</menu>
